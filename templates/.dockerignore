@@ -1,0 +1,88 @@
+# .dockerignore for Kimi-Audio
+# 放置在 Kimi-Audio 目錄根目錄，減少 Docker context 大小
+
+# Git 相關
+.git
+.gitignore
+.gitattributes
+.gitmodules
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 環境
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 大型文件和模型
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.sqsh
+*.squashfs
+
+# 輸出和快取
+output/
+outputs/
+logs/
+checkpoints/
+*.log
+*.ckpt
+*.pth
+*.pt
+*.bin
+wandb/
+
+# 測試和臨時文件
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+temp/
+tmp/
+*.tmp
+
+# 文檔
+*.md
+docs/
+README*
+
+# 腳本（根據需要調整）
+*.sh
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# 特定於專案的排除
+# 如果有大型數據集或預訓練模型不需要包含在 image 中
+# data/
+# pretrained_models/
+
+# 注意：確保不排除 requirements.txt 和必要的配置文件
+
