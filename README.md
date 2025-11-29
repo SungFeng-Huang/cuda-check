@@ -74,7 +74,6 @@ This launches NVIDIA PyTorch container with:
 
 - **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Essential commands
 - **[docs/USAGE_GUIDE.md](docs/USAGE_GUIDE.md)** - Complete usage guide
-- **[docs/CHECK_CUDA_README.md](docs/CHECK_CUDA_README.md)** - Diagnostic tools reference
 - **[docs/DOCKER_REGISTRY_GUIDE.md](docs/DOCKER_REGISTRY_GUIDE.md)** - Docker Registry setup
 
 ---

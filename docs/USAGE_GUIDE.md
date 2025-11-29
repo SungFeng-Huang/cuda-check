@@ -261,8 +261,9 @@ Push to registry instead of managing .tar/.sqsh files:
 
 ## 📖 Additional Documentation
 
-- **[CHECK_CUDA_README.md](CHECK_CUDA_README.md)** - Detailed diagnostic tool usage
 - **[DOCKER_REGISTRY_GUIDE.md](DOCKER_REGISTRY_GUIDE.md)** - Registry setup and authentication
+- **[QUICK_REFERENCE.md](../QUICK_REFERENCE.md)** - Command cheat sheet
+- **[README.md](../README.md)** - Repository overview
 
 ---
 
